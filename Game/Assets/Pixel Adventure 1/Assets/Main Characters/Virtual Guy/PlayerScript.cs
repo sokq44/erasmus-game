@@ -104,8 +104,6 @@ public class PlayerScript : MonoBehaviour
     public void TakeDamage(float amount)
     {
         hitPoints -= amount;
-        animator.SetBool("hit", true);
-
         StartCoroutine(SleepTakeDmg(0.5f));
     }
 
@@ -114,17 +112,15 @@ public class PlayerScript : MonoBehaviour
         if (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Block")
         {
             jumped = false;
+            jumpCount = 0;
             animator.SetBool("jumping", false);
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void AddPoints(int amount)
     {
-        if (collision.gameObject.layer == 3)
-        {
-            playerPoints++;
-            pointsText.text = "POINTS: " + playerPoints;
-        }
+        playerPoints += amount;
+        pointsText.text = "POINTS: " + playerPoints;
     }
 
     IEnumerator StopDoubleJump()
@@ -138,7 +134,6 @@ public class PlayerScript : MonoBehaviour
     IEnumerator EndGame(bool didWin)
     {
         this.enabled = false;
-        animator.SetBool("hit", true);
 
         yield return new WaitForSeconds(1.0f);
 
@@ -150,6 +145,8 @@ public class PlayerScript : MonoBehaviour
 
     IEnumerator SleepTakeDmg(float amount)
     {
+        animator.SetBool("hit", true);
+
         yield return new WaitForSeconds(amount);
 
         animator.SetBool("hit", false);
