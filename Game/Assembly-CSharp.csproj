@@ -63,8 +63,11 @@
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
     <Compile Include="Assets\Pixel Adventure 1\Assets\Items\Fruits\FruitScript.cs" />
+    <Compile Include="Assets\Scenes\BtnChangeScene.cs" />
     <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
     <Compile Include="Assets\Pixel Adventure 1\Assets\Main Characters\Virtual Guy\PlayerScript.cs" />
+    <Compile Include="Assets\Scenes\ScenesLogic.cs" />
+    <Compile Include="Assets\Scenes\MenuScript.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
     <Compile Include="Assets\Pixel Adventure 1\Assets\Traps\Spikes\Spikes.cs" />

@@ -5,24 +5,31 @@ using UnityEngine;
 public class FruitScript : MonoBehaviour
 {
     [SerializeField] private Animator animator;
-    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioSource collectSound;
     void Start()
     {
         animator = GetComponent<Animator>();
-        audioSource = GetComponent<AudioSource>();
+        collectSound = GameObject.Find("CollectSound").GetComponent<AudioSource>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.gameObject.tag == "Player")
-        {
-            audioSource.Play();
-
-            animator.SetBool("Collected", true);
-            Destroy(gameObject, 0.7f);
+        { 
+            StartCoroutine(DestroyCouroutine(0.25f));
 
             var player = GameObject.FindWithTag("Player").GetComponent<PlayerScript>();
             player.AddPoints(1);
         }
+    }
+
+    IEnumerator DestroyCouroutine(float amount)
+    {
+        animator.Play("Collected");
+        collectSound.Play();
+
+        yield return new WaitForSeconds(amount);
+
+        Destroy(gameObject);
     }
 }
