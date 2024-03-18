@@ -141,7 +141,7 @@ public class PlayerScript : MonoBehaviour
         animator.Play("Hit");
         backgroundMusic.Stop();
 
-        yield return new WaitForSeconds(1.0f);  
+        yield return new WaitForSeconds(0.5f);  
 
         if (didWin)
             ScenesLogic.NextLevel(false);

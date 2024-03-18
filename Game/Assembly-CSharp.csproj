@@ -72,6 +72,7 @@
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
     <Compile Include="Assets\Pixel Adventure 1\Assets\Traps\Spikes\Spikes.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
+    <Compile Include="Assets\Pixel Adventure 1\Assets\Main Characters\Ninja Frog\EnemyScript.cs" />
     <Compile Include="Assets\Pixel Adventure 1\Scripts\PopUpMenuScript.cs" />
     <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
   </ItemGroup>
