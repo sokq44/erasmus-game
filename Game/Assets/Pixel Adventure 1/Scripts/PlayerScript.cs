@@ -36,8 +36,6 @@ public class PlayerScript : MonoBehaviour
 
         jumpBtn.onClick.AddListener(jump);
 
-        pointsText.text = "POINTS: 0";
-
         movespeed = 5.0f;
         jumpforce = 15.0f;
         jumped = false;
@@ -45,6 +43,8 @@ public class PlayerScript : MonoBehaviour
         playerPoints = 0;
         hitPoints = 100.0f;
         fruitsOnScene = GameObject.FindGameObjectsWithTag("Fruit").Length;
+
+        ScenesLogic.OutLevelCurr();
     }
 
     void Update()
@@ -52,14 +52,10 @@ public class PlayerScript : MonoBehaviour
         Run();
 
         if (playerPoints == fruitsOnScene)
-        {
             StartCoroutine(EndGame(true));
-        }
 
         if (hitPoints <= 0)
-        {
             StartCoroutine(EndGame(false));
-        }
     }
 
     void jump()

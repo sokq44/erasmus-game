@@ -3,11 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|c:\\users\\student.laptop-157-alva\\desktop\\erasmus\\game\\assets\\scenes\\menuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\menuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|c:\\users\\student.laptop-157-alva\\desktop\\erasmus\\game\\assets\\pixel adventure 1\\assets\\items\\fruits\\fruitscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\assets\\pixel adventure 1\\assets\\items\\fruits\\fruitscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\pixel adventure 1\\assets\\items\\fruits\\fruitscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,12 +11,20 @@
       "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\sceneslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\assets\\pixel adventure 1\\assets\\main characters\\virtual guy\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\pixel adventure 1\\assets\\main characters\\virtual guy\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\assets\\scenes\\btnchangescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\btnchangescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\assets\\scenes\\menuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\menuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|c:\\users\\student.laptop-157-alva\\desktop\\erasmus\\game\\assets\\pixel adventure 1\\scripts\\popupmenuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\pixel adventure 1\\scripts\\popupmenuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|c:\\users\\student.laptop-157-alva\\desktop\\erasmus\\game\\assets\\pixel adventure 1\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\pixel adventure 1\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\assets\\pixel adventure 1\\assets\\traps\\spikes\\spikes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,48 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MenuScript.cs",
-              "DocumentMoniker": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\Assets\\Scenes\\MenuScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scenes\\MenuScript.cs",
-              "ToolTip": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\Assets\\Scenes\\MenuScript.cs",
-              "RelativeToolTip": "Assets\\Scenes\\MenuScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T12:28:23.534Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BtnChangeScene.cs",
-              "DocumentMoniker": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\Assets\\Scenes\\BtnChangeScene.cs",
-              "RelativeDocumentMoniker": "Assets\\Scenes\\BtnChangeScene.cs",
-              "ToolTip": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\Assets\\Scenes\\BtnChangeScene.cs",
-              "RelativeToolTip": "Assets\\Scenes\\BtnChangeScene.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T12:03:15.638Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ScenesLogic.cs",
-              "DocumentMoniker": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\Assets\\Scenes\\ScenesLogic.cs",
-              "RelativeDocumentMoniker": "Assets\\Scenes\\ScenesLogic.cs",
-              "ToolTip": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\Assets\\Scenes\\ScenesLogic.cs",
-              "RelativeToolTip": "Assets\\Scenes\\ScenesLogic.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T10:34:34.682Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Spikes.cs",
               "DocumentMoniker": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\Assets\\Pixel Adventure 1\\Assets\\Traps\\Spikes\\Spikes.cs",
               "RelativeDocumentMoniker": "Assets\\Pixel Adventure 1\\Assets\\Traps\\Spikes\\Spikes.cs",
@@ -87,7 +54,72 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PopUpMenuScript.cs",
+              "DocumentMoniker": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\Assets\\Pixel Adventure 1\\Scripts\\PopUpMenuScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Pixel Adventure 1\\Scripts\\PopUpMenuScript.cs",
+              "ToolTip": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\Assets\\Pixel Adventure 1\\Scripts\\PopUpMenuScript.cs",
+              "RelativeToolTip": "Assets\\Pixel Adventure 1\\Scripts\\PopUpMenuScript.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwCMAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T08:36:47.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerScript.cs",
+              "DocumentMoniker": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\Assets\\Pixel Adventure 1\\Scripts\\PlayerScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Pixel Adventure 1\\Scripts\\PlayerScript.cs",
+              "ToolTip": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\Assets\\Pixel Adventure 1\\Scripts\\PlayerScript.cs",
+              "RelativeToolTip": "Assets\\Pixel Adventure 1\\Scripts\\PlayerScript.cs",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAwwJoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T08:14:56.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MenuScript.cs",
+              "DocumentMoniker": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\Assets\\Scenes\\MenuScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\MenuScript.cs",
+              "ToolTip": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\Assets\\Scenes\\MenuScript.cs",
+              "RelativeToolTip": "Assets\\Scenes\\MenuScript.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T12:28:23.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BtnChangeScene.cs",
+              "DocumentMoniker": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\Assets\\Scenes\\BtnChangeScene.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\BtnChangeScene.cs",
+              "ToolTip": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\Assets\\Scenes\\BtnChangeScene.cs",
+              "RelativeToolTip": "Assets\\Scenes\\BtnChangeScene.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T12:03:15.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ScenesLogic.cs",
+              "DocumentMoniker": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\Assets\\Scenes\\ScenesLogic.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\ScenesLogic.cs",
+              "ToolTip": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\Assets\\Scenes\\ScenesLogic.cs",
+              "RelativeToolTip": "Assets\\Scenes\\ScenesLogic.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T10:34:34.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "FruitScript.cs",
               "DocumentMoniker": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\Assets\\Pixel Adventure 1\\Assets\\Items\\Fruits\\FruitScript.cs",
               "RelativeDocumentMoniker": "Assets\\Pixel Adventure 1\\Assets\\Items\\Fruits\\FruitScript.cs",
@@ -97,18 +129,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-14T09:03:48.19Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlayerScript.cs",
-              "DocumentMoniker": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\Assets\\Pixel Adventure 1\\Assets\\Main Characters\\Virtual Guy\\PlayerScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Pixel Adventure 1\\Assets\\Main Characters\\Virtual Guy\\PlayerScript.cs",
-              "ToolTip": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\Assets\\Pixel Adventure 1\\Assets\\Main Characters\\Virtual Guy\\PlayerScript.cs",
-              "RelativeToolTip": "Assets\\Pixel Adventure 1\\Assets\\Main Characters\\Virtual Guy\\PlayerScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T08:28:15.351Z"
             }
           ]
         }

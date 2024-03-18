@@ -10,9 +10,6 @@ public class BtnClick : MonoBehaviour
     void Start()
     {
         Button btn = GetComponent<Button>();
-        btn.onClick.AddListener(() =>
-        {
-            SceneManager.LoadScene(scene);
-        });
+        btn.onClick.AddListener(() => SceneManager.LoadScene(scene) );
     }
 }
