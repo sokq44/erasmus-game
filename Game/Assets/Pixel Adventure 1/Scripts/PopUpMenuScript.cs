@@ -16,8 +16,6 @@ public class PopUpMenuScript : MonoBehaviour
 
     private void Start()
     {
-        ScenesLogic.OutLevelCurr();
-
         image = GetComponent<Image>();
         mainMenuBtn = GameObject.Find("MainMenuBtn").GetComponent<Button>();
         retryBtn = GameObject.Find("RetryBtn").GetComponent<Button>();

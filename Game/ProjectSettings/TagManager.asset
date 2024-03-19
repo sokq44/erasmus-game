@@ -8,6 +8,7 @@ TagManager:
   - Block
   - Fruit
   - EnemyPath
+  - Enemy
   layers:
   - Default
   - TransparentFX

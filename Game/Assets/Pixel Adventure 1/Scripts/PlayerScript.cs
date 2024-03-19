@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -13,23 +14,31 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private AudioSource audioSource;
 
+    [SerializeField] private GameObject HPPrefab;
+
     [SerializeField] private Joystick joystick;
     [SerializeField] private Button jumpBtn;
     [SerializeField] private Text pointsText;
+    [SerializeField] private Text timerText;
     [SerializeField] private AudioSource hitSound;
     [SerializeField] private AudioSource backgroundMusic;
 
     [SerializeField] private float movespeed;
     [SerializeField] private float jumpforce;
-    [SerializeField] private float hitPoints;
+    [SerializeField] private float knockbackForce;
+    [SerializeField] private int playerPoints;
     [SerializeField] private bool jumped;
     [SerializeField] private int jumpCount;
-    [SerializeField] private int playerPoints;
     [SerializeField] private int fruitsOnScene;
+
+    [SerializeField] private float timer;
+
+    public static float hitPoints;
 
     void Start()
     {
         FindReferences();
+        DisplayHitPoints();
 
         rigidbody.mass = 2.0f;
         rigidbody.freezeRotation = true;
@@ -40,21 +49,21 @@ public class PlayerScript : MonoBehaviour
         jumpforce = 15.0f;
         jumped = false;
         jumpCount = 0;
+        knockbackForce = 5.0f;
         playerPoints = 0;
-        hitPoints = 100.0f;
+        timer = 25.0f;
         fruitsOnScene = GameObject.FindGameObjectsWithTag("Fruit").Length;
-
-        ScenesLogic.OutLevelCurr();
     }
 
     void Update()
     {
         Run();
+        UpdateTimer();
 
         if (playerPoints == fruitsOnScene)
             StartCoroutine(EndGame(true));
 
-        if (hitPoints <= 0)
+        if (PlayerScript.hitPoints <= 0 || timer <= 0)
             StartCoroutine(EndGame(false));
     }
 
@@ -92,6 +101,12 @@ public class PlayerScript : MonoBehaviour
             animator.SetBool("moving", false);
     }
 
+    void UpdateTimer()
+    {
+        timer -= Time.deltaTime;
+        timerText.text = "Time: " + (int)timer;
+    }
+
     void FindReferences()
     {
         rigidbody = GetComponent<Rigidbody2D>();
@@ -101,6 +116,7 @@ public class PlayerScript : MonoBehaviour
         joystick = GameObject.Find("Floating Joystick").GetComponent<Joystick>();
         jumpBtn = GameObject.Find("JumpButton").GetComponent<Button>();
         pointsText = GameObject.Find("Points").GetComponent<Text>();
+        timerText = GameObject.Find("Timer").GetComponent<Text>();
 
         hitSound = GameObject.Find("HitSound").GetComponent<AudioSource>();
         backgroundMusic = GameObject.Find("BackgroundMusic").GetComponent<AudioSource>();
@@ -115,6 +131,12 @@ public class PlayerScript : MonoBehaviour
     {
         playerPoints += amount;
         pointsText.text = "POINTS: " + playerPoints;
+    }
+
+    public void DisplayHitPoints()
+    {
+        RectTransform hitPointsCanvas = GameObject.Find("HitPoints").GetComponent<RectTransform>();
+        hitPointsCanvas.sizeDelta = new Vector2(150 * hitPoints, hitPointsCanvas.sizeDelta.y);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -138,8 +160,11 @@ public class PlayerScript : MonoBehaviour
     IEnumerator EndGame(bool didWin)
     {
         this.enabled = false;
-        animator.Play("Hit");
         backgroundMusic.Stop();
+
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+        foreach (GameObject enemy in enemies)
+            enemy.SetActive(false);
 
         yield return new WaitForSeconds(0.5f);  
 
@@ -151,12 +176,15 @@ public class PlayerScript : MonoBehaviour
 
     IEnumerator SleepTakeDmg(float timeAmount, float hpAmount)
     {
-        animator.Play("Hit");
+        animator.Play("Hit");   
         hitSound.Play();
-        hitPoints -= hpAmount;
+        PlayerScript.hitPoints -= hpAmount;
+
+        rigidbody.AddForce(Vector2.up * knockbackForce, ForceMode2D.Impulse);
 
         yield return new WaitForSeconds(timeAmount);
 
         animator.SetBool("hit", false);
+        DisplayHitPoints();
     }
 }

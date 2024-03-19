@@ -27,5 +27,7 @@ public class MenuScript : MonoBehaviour
         });
 
         exitBtn.onClick.AddListener(() => EditorApplication.isPlaying = false );
+
+        PlayerScript.hitPoints = 4.0f;
     }    
 }

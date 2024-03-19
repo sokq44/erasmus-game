@@ -31,13 +31,12 @@ public class EnemyScript : MonoBehaviour
     {
         if (collision.CompareTag("EnemyPath"))
         {
-            Debug.Log("Rotate");
             transform.Rotate(0, 180, 0);
         }
 
         if (collision.gameObject.tag == "Player")
         {
-            playerScript.TakeDamage(50.0f);
+            playerScript.TakeDamage(1);
         }
     }
 }
