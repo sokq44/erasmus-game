@@ -26,7 +26,7 @@ public class MenuScript : MonoBehaviour
             ScenesLogic.NextLevel(false);
         });
 
-        exitBtn.onClick.AddListener(() => EditorApplication.isPlaying = false );
+        exitBtn.onClick.AddListener(() => Application.Quit() );
 
         PlayerScript.hitPoints = 4.0f;
     }    

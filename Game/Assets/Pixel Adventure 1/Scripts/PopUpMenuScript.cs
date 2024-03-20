@@ -23,7 +23,7 @@ public class PopUpMenuScript : MonoBehaviour
 
         mainMenuBtn.onClick.AddListener(() => SceneManager.LoadScene("GameMenu"));
         retryBtn.onClick.AddListener(() => SceneManager.LoadScene("Level" + ScenesLogic.getLevelCur()));
-        exitBtn.onClick.AddListener(() => EditorApplication.isPlaying = false);
+        exitBtn.onClick.AddListener(() => Application.Quit() );
 
         ChangeVisibility(false);
     }

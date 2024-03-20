@@ -51,7 +51,7 @@ public class PlayerScript : MonoBehaviour
         jumpCount = 0;
         knockbackForce = 5.0f;
         playerPoints = 0;
-        timer = 25.0f;
+        timer = 61.0f;
         fruitsOnScene = GameObject.FindGameObjectsWithTag("Fruit").Length;
     }
 
@@ -79,7 +79,7 @@ public class PlayerScript : MonoBehaviour
         }
         else if (jumped && jumpCount == 1)
         {
-            animator.SetBool("doubleJump", true);
+            animator.Play("DoubleJump");
             rigidbody.AddForce(Vector2.up * (jumpforce * 0.6f), ForceMode2D.Impulse);
             jumpBtn.interactable = false;
             StartCoroutine(StopDoubleJump());
@@ -155,7 +155,6 @@ public class PlayerScript : MonoBehaviour
 
         jumpCount = 0;
         jumpBtn.interactable = true;
-        animator.SetBool("doubleJump", false);
     }
     IEnumerator EndGame(bool didWin)
     {

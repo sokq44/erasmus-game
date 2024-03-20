@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\assets\\pixel adventure 1\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|c:\\users\\student.laptop-157-alva\\desktop\\erasmus\\game\\assets\\pixel adventure 1\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\pixel adventure 1\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,16 +11,16 @@
       "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\pixel adventure 1\\scripts\\popupmenuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|c:\\users\\student.laptop-157-alva\\desktop\\erasmus\\game\\assets\\pixel adventure 1\\assets\\main characters\\ninja frog\\enemyscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\assets\\scenes\\menuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\menuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\assets\\pixel adventure 1\\assets\\main characters\\ninja frog\\enemyscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\pixel adventure 1\\assets\\main characters\\ninja frog\\enemyscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\assets\\scenes\\sceneslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\sceneslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\assets\\scenes\\menuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\menuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\assets\\scenes\\btnchangescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "Assets\\Pixel Adventure 1\\Scripts\\PlayerScript.cs",
               "ToolTip": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\Assets\\Pixel Adventure 1\\Scripts\\PlayerScript.cs",
               "RelativeToolTip": "Assets\\Pixel Adventure 1\\Scripts\\PlayerScript.cs",
-              "ViewState": "AQIAAJMAAAAAAAAAAADgv6gAAAAwAAAA",
+              "ViewState": "AQIAAEMAAAAAAAAAAAD4v1cAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-18T08:14:56.947Z",
               "IsPinned": true,
@@ -60,13 +60,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "EnemyScript.cs",
               "DocumentMoniker": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\Assets\\Pixel Adventure 1\\Assets\\Main Characters\\Ninja Frog\\EnemyScript.cs",
               "RelativeDocumentMoniker": "Assets\\Pixel Adventure 1\\Assets\\Main Characters\\Ninja Frog\\EnemyScript.cs",
               "ToolTip": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\Assets\\Pixel Adventure 1\\Assets\\Main Characters\\Ninja Frog\\EnemyScript.cs",
               "RelativeToolTip": "Assets\\Pixel Adventure 1\\Assets\\Main Characters\\Ninja Frog\\EnemyScript.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwCAAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-18T10:50:22.552Z",
               "IsPinned": true,
@@ -80,7 +80,7 @@
               "RelativeDocumentMoniker": "Assets\\Pixel Adventure 1\\Scripts\\PopUpMenuScript.cs",
               "ToolTip": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\Assets\\Pixel Adventure 1\\Scripts\\PopUpMenuScript.cs",
               "RelativeToolTip": "Assets\\Pixel Adventure 1\\Scripts\\PopUpMenuScript.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABsAAAAgAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABkAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-18T08:36:47.633Z",
               "EditorCaption": ""
@@ -95,18 +95,17 @@
               "RelativeToolTip": "Assets\\Pixel Adventure 1\\Assets\\Traps\\Spikes\\Spikes.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T11:06:18.04Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-14T11:06:18.04Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "MenuScript.cs",
               "DocumentMoniker": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\Assets\\Scenes\\MenuScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\MenuScript.cs",
               "ToolTip": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\Assets\\Scenes\\MenuScript.cs",
               "RelativeToolTip": "Assets\\Scenes\\MenuScript.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAAkAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-15T12:28:23.534Z",
               "EditorCaption": ""
@@ -121,12 +120,11 @@
               "RelativeToolTip": "Assets\\Scenes\\BtnChangeScene.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T12:03:15.638Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-15T12:03:15.638Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ScenesLogic.cs",
               "DocumentMoniker": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\Assets\\Scenes\\ScenesLogic.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\ScenesLogic.cs",
@@ -134,8 +132,7 @@
               "RelativeToolTip": "Assets\\Scenes\\ScenesLogic.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAawCwAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T10:34:34.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-15T10:34:34.682Z"
             },
             {
               "$type": "Document",

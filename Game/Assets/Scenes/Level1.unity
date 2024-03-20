@@ -728,7 +728,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.002883613, y: 0}
+  m_Offset: {x: -0.003455639, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -739,7 +739,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.2206817, y: 0.16}
+  m_Size: {x: 5.005558, y: 0.16}
   m_EdgeRadius: 0
 --- !u!4 &532603204 stripped
 Transform:
@@ -927,7 +927,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 17.745533, y: 9.921677}
+  m_Size: {x: 39.835728, y: 9.921677}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -942,7 +942,7 @@ Transform:
   m_GameObject: {fileID: 838090677}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.579258, y: 2.6023996, z: 10}
+  m_LocalPosition: {x: 5.5747, y: 2.6023996, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1323,7 +1323,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 782, y: -316}
+  m_AnchoredPosition: {x: 818.01, y: -373.24}
   m_SizeDelta: {x: 283.9802, y: 117.5227}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1247463402
@@ -1549,7 +1549,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 470.4803}
+  m_AnchoredPosition: {x: 0, y: 361.1}
   m_SizeDelta: {x: 640, y: 139.0394}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1491249683
@@ -2080,7 +2080,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 640, y: 470.4803}
+  m_AnchoredPosition: {x: 640, y: 361.1}
   m_SizeDelta: {x: 640, y: 139.0394}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1856149309
@@ -2575,7 +2575,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4293682186805690129, guid: f7874ebe88abc9b4686d4e2015ec659f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -33.42
       objectReference: {fileID: 0}
     - target: {fileID: 4293682186805690129, guid: f7874ebe88abc9b4686d4e2015ec659f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2814,11 +2814,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1723746605624888886, guid: 241330f13573e9740bedc200ff87b8c4, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -640
+      value: -620
       objectReference: {fileID: 0}
     - target: {fileID: 1723746605624888886, guid: 241330f13573e9740bedc200ff87b8c4, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 465
+      value: 355.62
       objectReference: {fileID: 0}
     - target: {fileID: 1723746605624888886, guid: 241330f13573e9740bedc200ff87b8c4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
