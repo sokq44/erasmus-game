@@ -15,6 +15,7 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] private AudioSource audioSource;
 
     [SerializeField] private GameObject HPPrefab;
+    [SerializeField] private GameObject Camera;
 
     [SerializeField] private Joystick joystick;
     [SerializeField] private Button jumpBtn;
@@ -30,6 +31,8 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] private bool jumped;
     [SerializeField] private int jumpCount;
     [SerializeField] private int fruitsOnScene;
+    [SerializeField] private int minCameraX;
+    [SerializeField] private int maxCameraX;
 
     [SerializeField] private float timer;
 
@@ -39,6 +42,7 @@ public class PlayerScript : MonoBehaviour
     {
         FindReferences();
         DisplayHitPoints();
+        MoveCamera();
 
         rigidbody.mass = 2.0f;
         rigidbody.freezeRotation = true;
@@ -59,12 +63,15 @@ public class PlayerScript : MonoBehaviour
     {
         Run();
         UpdateTimer();
+        MoveCamera();
 
         if (playerPoints == fruitsOnScene)
             StartCoroutine(EndGame(true));
 
         if (PlayerScript.hitPoints <= 0 || timer <= 0)
             StartCoroutine(EndGame(false));
+
+        
     }
 
     void jump()
@@ -120,6 +127,15 @@ public class PlayerScript : MonoBehaviour
 
         hitSound = GameObject.Find("HitSound").GetComponent<AudioSource>();
         backgroundMusic = GameObject.Find("BackgroundMusic").GetComponent<AudioSource>();
+
+        Camera = GameObject.FindGameObjectWithTag("MainCamera");
+    }
+
+    private void MoveCamera()
+    {
+        Vector3 pos = new Vector3(transform.position.x, Camera.transform.position.y, Camera.transform.position.z);
+        if ((int)pos.x >= minCameraX && (int)pos.x <= maxCameraX)
+            Camera.transform.position = pos;
     }
 
     public void TakeDamage(float amount)

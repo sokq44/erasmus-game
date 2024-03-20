@@ -25,13 +25,9 @@ public class PopUpMenuScript : MonoBehaviour
         retryBtn.onClick.AddListener(() => SceneManager.LoadScene("Level" + ScenesLogic.getLevelCur()));
         exitBtn.onClick.AddListener(() => Application.Quit() );
 
-        ChangeVisibility(false);
-    }
+        GameObject.Find("PopUpMenuBtn").GetComponent<Button>().onClick.AddListener(() => ChangeVisibility(!popUpActive));
 
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.P))
-            ChangeVisibility(!popUpActive);
+        ChangeVisibility(false);
     }
 
     void ChangeVisibility(bool p)

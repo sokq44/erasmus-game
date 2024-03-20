@@ -3,7 +3,9 @@ Library
 Logs
 Temp
 UserSettings
+PlatformerGame_BurstDebugInformation_DoNotShip
 
 #Files
 Platformer.sln
 .vsconfig
+*.apk
