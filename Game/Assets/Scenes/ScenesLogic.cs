@@ -9,7 +9,7 @@ using UnityEngine.SceneManagement;
 
 public class ScenesLogic
 {
-    private static int NumberOfLevels = 2;
+    private static int NumberOfLevels = 3;
     private static int levelCurr = 0;
 
     public static void setLevelCur(int val)

@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|c:\\users\\student.laptop-157-alva\\desktop\\erasmus\\game\\assets\\pixel adventure 1\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\pixel adventure 1\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\assets\\pixel adventure 1\\assets\\items\\fruits\\fruitscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\pixel adventure 1\\assets\\items\\fruits\\fruitscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\assets\\scenes\\sceneslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\sceneslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|c:\\users\\student.laptop-157-alva\\desktop\\erasmus\\game\\assets\\pixel adventure 1\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\pixel adventure 1\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\assets\\pixel adventure 1\\scripts\\popupmenuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\assets\\pixel adventure 1\\assets\\traps\\spikes\\spikes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\pixel adventure 1\\assets\\traps\\spikes\\spikes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\assets\\pixel adventure 1\\assets\\items\\fruits\\fruitscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\pixel adventure 1\\assets\\items\\fruits\\fruitscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,11 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "PlayerScript.cs",
               "DocumentMoniker": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\Assets\\Pixel Adventure 1\\Scripts\\PlayerScript.cs",
               "RelativeDocumentMoniker": "Assets\\Pixel Adventure 1\\Scripts\\PlayerScript.cs",
@@ -60,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "EnemyScript.cs",
               "DocumentMoniker": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\Assets\\Pixel Adventure 1\\Assets\\Main Characters\\Ninja Frog\\EnemyScript.cs",
               "RelativeDocumentMoniker": "Assets\\Pixel Adventure 1\\Assets\\Main Characters\\Ninja Frog\\EnemyScript.cs",
@@ -73,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PopUpMenuScript.cs",
               "DocumentMoniker": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\Assets\\Pixel Adventure 1\\Scripts\\PopUpMenuScript.cs",
               "RelativeDocumentMoniker": "Assets\\Pixel Adventure 1\\Scripts\\PopUpMenuScript.cs",
@@ -81,12 +81,11 @@
               "RelativeToolTip": "Assets\\Pixel Adventure 1\\Scripts\\PopUpMenuScript.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAABsAAAB5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T08:36:47.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-18T08:36:47.633Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Spikes.cs",
               "DocumentMoniker": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\Assets\\Pixel Adventure 1\\Assets\\Traps\\Spikes\\Spikes.cs",
               "RelativeDocumentMoniker": "Assets\\Pixel Adventure 1\\Assets\\Traps\\Spikes\\Spikes.cs",
@@ -98,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MenuScript.cs",
               "DocumentMoniker": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\Assets\\Scenes\\MenuScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\MenuScript.cs",
@@ -110,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "BtnChangeScene.cs",
               "DocumentMoniker": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\Assets\\Scenes\\BtnChangeScene.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\BtnChangeScene.cs",
@@ -128,22 +127,23 @@
               "RelativeDocumentMoniker": "Assets\\Scenes\\ScenesLogic.cs",
               "ToolTip": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\Assets\\Scenes\\ScenesLogic.cs",
               "RelativeToolTip": "Assets\\Scenes\\ScenesLogic.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAawAwAAAAlAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAawAsAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-15T10:34:34.682Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "FruitScript.cs",
               "DocumentMoniker": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\Assets\\Pixel Adventure 1\\Assets\\Items\\Fruits\\FruitScript.cs",
               "RelativeDocumentMoniker": "Assets\\Pixel Adventure 1\\Assets\\Items\\Fruits\\FruitScript.cs",
               "ToolTip": "C:\\Users\\Student.LAPTOP-157-ALVA\\Desktop\\Erasmus\\Game\\Assets\\Pixel Adventure 1\\Assets\\Items\\Fruits\\FruitScript.cs",
               "RelativeToolTip": "Assets\\Pixel Adventure 1\\Assets\\Items\\Fruits\\FruitScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA3AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAABcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T09:03:48.19Z"
+              "WhenOpened": "2024-03-14T09:03:48.19Z",
+              "EditorCaption": ""
             }
           ]
         }

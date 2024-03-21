@@ -17,9 +17,6 @@ public class FruitScript : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         { 
             StartCoroutine(DestroyCouroutine(0.25f));
-
-            var player = GameObject.FindWithTag("Player").GetComponent<PlayerScript>();
-            player.AddPoints(1);
         }
     }
 
@@ -31,5 +28,7 @@ public class FruitScript : MonoBehaviour
         yield return new WaitForSeconds(amount);
 
         Destroy(gameObject);
+        PlayerScript player = GameObject.FindWithTag("Player").GetComponent<PlayerScript>();
+        player.AddPoints(1);
     }
 }
