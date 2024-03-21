@@ -1,36 +1,15 @@
-# Erasmus Platformer
+# Bob the Astronaut
 
-![Erasmus Platformer Logo](https://example.com/logo.png)
-
-Welcome to Erasmus Platformer, a delightful platformer game inspired by my experiences during the Erasmus program in Spain. Explore vibrant levels, overcome obstacles, and immerse yourself in the nostalgia of your Erasmus journey.
+Welcome to Bob the Astronaut, a delightful platformer game made during the Erasmus program in Spain. Explore vibrant levels, overcome obstacles, and immerse yourself in the nostalgia of your Erasmus journey.
 
 ## Features
 
 - **Engaging Gameplay:** Experience thrilling platformer action with intuitive controls and challenging levels.
-- **Beautiful Environments:** Explore diverse and visually stunning levels inspired by iconic locations in Spain.
-- **Nostalgic Experience:** Relive your Erasmus memories through the game's storyline and aesthetics.
-- **Unique Characters:** Play as memorable characters representing different aspects of the Erasmus experience.
-- **Customization Options:** Personalize your gaming experience with various skins, outfits, and accessories.
-
-## Screenshots
-
-![Screenshot 1](https://example.com/screenshot1.png)
-![Screenshot 2](https://example.com/screenshot2.png)
+- **Lovely Graphics:** Explore beautiful graphics from unity asset store.
 
 ## Installation
-
-To play Erasmus Platformer, follow these steps:
-
-1. Clone this repository to your local machine using `git clone https://github.com/your-username/erasmus-platformer.git`
-2. Open the project in your preferred game development environment.
-3. Build and run the game to start playing.
-
-## Usage
-
-- Use the arrow keys or WASD keys to move your character.
-- Press the spacebar to jump over obstacles.
-- Collect coins and power-ups to enhance your gameplay experience.
-- Navigate through each level to reach the end goal and advance to the next stage.
+- **Option 1**: Create an empty project in Unity (version 2022.3.21f1), clone the repo and build an .apk file.
+- **Option 2**: Go to the attached link to my itch.io project and download the .apk file on your android device. 
 
 ## Contributing
 
@@ -44,13 +23,11 @@ Contributions are welcome! If you have any ideas for new features, improvements,
 
 ## Credits
 
-This game was developed by [Your Name] during the Erasmus program in Spain.
+This game was developed by sokq44 during the Erasmus program in Malaga (Spain) - internship in company Forja Roja.
 
 Special thanks to the following individuals and resources:
 
-- [Name]: For [specific contribution].
-- [Name]: For [specific contribution].
-- [Name]: For [specific contribution].
+- [Link Text](https://github.com/KoniczynSzef): For Music inspiration.
 
 ## License
 
@@ -58,4 +35,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Enjoy playing Erasmus Platformer! If you have any questions, feedback, or suggestions, feel free to reach out. Happy gaming! 🎮🇪🇸
+Enjoy playing Erasmus Platformer! If you have any questions, feedback, or suggestions, feel free to reach out. Happy gaming! 🎮
