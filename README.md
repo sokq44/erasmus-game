@@ -1,8 +1,8 @@
-# Bob the Astronaut
+# Bob the Astronaut 👨‍🚀
 
 Welcome to Bob the Astronaut, a delightful platformer game made during the Erasmus program in Spain. Explore vibrant levels, overcome obstacles, and immerse yourself in the nostalgia of your Erasmus journey.
 
-## Features
+## Features 
 
 - **Engaging Gameplay:** Experience thrilling platformer action with intuitive controls and challenging levels.
 - **Lovely Graphics:** Explore beautiful graphics from unity asset store.
@@ -28,7 +28,7 @@ This game was developed by sokq44 during the Erasmus program in Malaga (Spain) -
 
 Special thanks to the following individuals and resources:
 
-- [KoniczynSzef](https://github.com/KoniczynSzef): For Music inspiration.
+- [KoniczynSzef 🍀](https://github.com/KoniczynSzef): For Music inspiration.
 
 ## License
 
