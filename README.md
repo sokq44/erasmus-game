@@ -1,6 +1,6 @@
 # Bob the Astronaut 👨‍🚀
 
-Welcome to Bob the Astronaut, a delightful platformer game made during the Erasmus program in Spain. Explore vibrant levels, overcome obstacles, and immerse yourself in the nostalgia of your Erasmus journey.
+Welcome to Bob the Astronaut, a delightful platformer game made during the Erasmus program in Spain. Explore vibrant levels, overcome obstacles, and immerse yourself in a beautiful journey.
 
 ## Features 
 
