@@ -5,6 +5,7 @@ Temp
 UserSettings
 PlatformerGame_BurstDebugInformation_DoNotShip
 obj
+.vs
 
 #Files
 Platformer.sln
