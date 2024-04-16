@@ -20,10 +20,6 @@ Special thanks to the following individuals and resources:
 
 - [KoniczynSzef 🍀](https://github.com/KoniczynSzef): For Music inspiration.
 
-## License
-
-This project is licensed under the MIT License.
-
 ---
 
 Enjoy playing Erasmus Platformer! If you have any questions, feedback, or suggestions, feel free to reach out. Happy gaming! 🎮
