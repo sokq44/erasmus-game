@@ -10,17 +10,7 @@ Welcome to Bob the Astronaut, a delightful platformer game made during the Erasm
 
 ## Installation
 - **Option 1**: Create an empty project in Unity (version 2022.3.21f1), clone the repo and build an .apk file.
-- **Option 2**: Go to the attached link to my itch.io project and download the .apk file on your android device. 
-
-## Contributing
-
-Contributions are welcome! If you have any ideas for new features, improvements, or bug fixes, feel free to submit a pull request. 
-
-1. Fork the repository.
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-4. Push to the branch (`git push origin feature/AmazingFeature`).
-5. Open a pull request.
+- **Option 2**: Go to the attached link to my itch.io project and download the .apk file on your android device.
 
 ## Credits
 
